@@ -1,0 +1,100 @@
+#sun {
+    radial-gradient(yellow, #f06d06);
+}
+
+@keyframes mercury {
+    from {
+        transform: rotate(0deg) translate(64px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(64px) rotate(-360deg);
+    }
+}
+#mercury {
+    position: relative;
+    animation: 10s mercury infinite linear;
+}
+@keyframes venus {
+    from {
+        transform: rotate(0deg) translate(88px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(88px) rotate(-360deg);
+    }
+}
+#venus {
+    position: relative;
+    animation: 6s venus infinite linear;
+}
+@keyframes earth {
+    from {
+        transform: rotate(0deg) translate(112px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(112px) rotate(-360deg);
+    }
+}
+#earth {
+    position: relative;
+    animation: 5s earth infinite linear;
+}
+@keyframes mars {
+    from {
+        transform: rotate(0deg) translate(136px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(136px) rotate(-360deg);
+    }
+}
+#mars {
+    position: relative;
+    animation: 5.5s mars infinite linear;
+}
+@keyframes jupiter {
+    from {
+        transform: rotate(0deg) translate(159px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(159px) rotate(-360deg);
+    }
+}
+#jupiter {
+    position: relative;
+    animation: 9s jupiter infinite linear;
+}
+@keyframes saturn {
+    from {
+        transform: rotate(0deg) translate(184px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(184px) rotate(-360deg);
+    }
+}
+#saturn {
+    position: relative;
+    animation: 11s saturn infinite linear;
+}
+@keyframes uranus {
+    from {
+        transform: rotate(0deg) translate(208px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(208px) rotate(-360deg);
+    }
+}
+#uranus {
+    position: relative;
+    animation: 15s uranus infinite linear;
+}
+@keyframes neptune {
+    from {
+        transform: rotate(0deg) translate(232px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translate(232px) rotate(-360deg);
+    }
+}
+#neptune {
+    position: relative;
+    animation: 18s neptune infinite linear;
+}
